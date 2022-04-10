@@ -1,0 +1,34 @@
+:root {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 20rem;
+}
+.display{
+    height:5rem;
+    background-color: aliceblue;
+    border: solid 0.1rem rgb(119, 119, 113);
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 4rem;
+    color: black;
+}
+.buttons {
+    display: flex;
+    flex: 1 1 0px;
+}
+button {
+    display: flex;
+    flex: 1 1 0px;  
+    margin: 0.05rem;
+    justify-content: space-around;
+}
+.ac,.equals {
+    display: flex;
+    flex: 2.2;
+}
