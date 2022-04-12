@@ -2,27 +2,38 @@
     display: flex;
     justify-content: center;
     padding-top: 10rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(138,90,136,1) 35%, rgba(0,212,255,1) 100%);
 }
 main{
     display: flex;
     flex-direction: column;
     height: 25rem;
     width: 20rem;
+    border: solid 0.3rem bisque;
 }
+@font-face {
+    font-family: "localFont";
+    src: url('./digital-7/digital-7.ttf');
+}
+
 .display{
+    font-family: "localFont";
     height:5rem;
     background-color: aliceblue;
-    border: solid 0.1rem rgb(119, 119, 113);
+    border: solid 0.1rem bisque;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 4rem;
     color: black;
 }
 .buttons {
+    background-color: bisque;
     display: flex;
     flex: 1 1 0px;
 }
 button {
+    background-color: rosybrown;
     display: flex;
     flex: 1 1 0px;  
     margin: 0.05rem;
